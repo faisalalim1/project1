@@ -1,0 +1,44 @@
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()" >
+    <ul class="form-style-1">
+      <li>
+        <label>Full Name <span class="required">*</span></label
+        >
+       
+        <input
+          type="text"
+          name="user"
+          class="field-divided"
+          placeholder="First"
+          formControlName="user"
+        />
+        
+        <input
+          type="text"
+          name="lastUser"
+          class="field-divided"
+          placeholder="Last"
+          formControlName="lastUser"
+        />
+      </li>
+      <span style="color: red;" *ngIf="user && user.invalid && user.touched">Enter your first name* </span>
+      <span style="color: red;"  *ngIf="lastUser && lastUser.invalid && lastUser.touched">Enter your first last-name*</span>
+      <li>
+        <label>Email <span class="required">*</span></label>
+        <input type="email" name="email" class="field-long"  formControlName="email" />
+      </li>
+      <li>
+        <label>Subject</label>
+        <select name="field4" class="field-select"  formControlName="field4">
+          <option value="Mathematics" >Mathematics</option>
+          <option value="Science">Science</option>
+          <option value=" English">English</option>
+          <option value=" Hindi">Hindi</option>
+          <option value="Social-Science">Social-Science</option>
+        </select>
+      </li>
+      <li>
+          <button class="head-btn" [disabled]="loginForm.invalid">Login</button>
+       
+      </li>
+    </ul>
+  </form>

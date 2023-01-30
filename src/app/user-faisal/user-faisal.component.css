@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+
+ 
+  
+
+
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 40px;
+  }
+  
+  /* Left and right column */
+  .column.side {
+    width: 75%;
+  }
+  
+  /* Middle column */
+  .column.middle {
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Work Section Styling */
+  .work {
+  background-color: #295FB3;
+  padding: 40px;
+  color: #fff;
+  }
+  
+  /* 3 Equal Columns that Float Next to Each Other */
+  .projectcolumn {
+    float: left;
+    width: 33.33%;
+    padding: 25px;
+  }
+  
+  /* Clear Floats after the Columns */
+  .projectrow:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Project Titles Styling */
+  .projecttitle {
+  background-color:#B78F51;
+  color: #fff;
+  padding: 10px;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .projectcolumn {
+      width: 100%;
+    }
+  }
+  
+ 
+  
+  form { max-width:420px; margin:50px auto; }
+  
+
+  
+  .feedback-input:focus { border:2px solid #B78F51; }
+  
+ 
+  
+  [type="submit"] {
+    width: 100%;
+    background:#295FB3;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:24px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:700;
+  }
+  [type="submit"]:hover { background:#B78F51 }
+  
+  
+ 
+  
+ 

@@ -14,7 +14,9 @@ import { ToogleElementComponent } from './toogle-element/toogle-element.componen
 import { TodoComponent } from './todo/todo.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component'
 import{ReactiveFormsModule} from '@angular/forms';
-import { UserFaisalComponent } from './user-faisal/user-faisal.component'
+import { UserFaisalComponent } from './user-faisal/user-faisal.component';
+import { GetDataComponent } from './get-data/get-data.component';
+import{HttpClientModule} from '@angular/common/http'
 
 
 @NgModule({
@@ -30,6 +32,7 @@ import { UserFaisalComponent } from './user-faisal/user-faisal.component'
     TodoComponent,
     ReactiveFormComponent,
     UserFaisalComponent,
+    GetDataComponent,
     
   ],
   imports: [
@@ -37,7 +40,8 @@ import { UserFaisalComponent } from './user-faisal/user-faisal.component'
     AppRoutingModule,
     NgbModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    HttpClientModule
     
   ],
   providers: [],

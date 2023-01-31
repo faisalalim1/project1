@@ -37,7 +37,7 @@ header{
     margin: 45px auto;
     width: 60vw;
 }
-.head-btn{
+.btn{
     margin: 20px 0;
     font-size: 20px;
     font-weight: bold;
@@ -49,7 +49,7 @@ header{
     cursor: pointer;
     transition: var(--transition);
 }
-.head-btn:hover{
+.btn:hover{
     background: transparent;
 }
 @media(max-width: 500px){

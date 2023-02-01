@@ -1,0 +1,9 @@
+<p>post-data works!</p>
+<form #userForm="ngForm" (ngSubmit)="getUserFormData(userForm.value)" >
+    <input type="text" ngModel name="userId" placeholder="userId">
+    <br><br>
+    <input type="text" ngModel name="Title" placeholder="Title">
+    <br><br>
+    <button>Add Data</button>
+   
+</form>

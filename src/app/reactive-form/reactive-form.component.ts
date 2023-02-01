@@ -15,9 +15,9 @@ export class ReactiveFormComponent implements OnInit {
   }
 
   loginForm = new FormGroup({
-    user: new FormControl('', [Validators.required]),
+    user: new FormControl('', [Validators.required,Validators.maxLength(6)]),
     lastUser: new FormControl('', [Validators.required]),
-    email: new FormControl('', [Validators.required]),
+    email: new FormControl('', [Validators.required,Validators.email]),
     field4: new FormControl('', [Validators.required]),
   })
 

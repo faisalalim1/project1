@@ -6,9 +6,11 @@ import { BasicFormComponent } from './basic-form/basic-form.component';
 import { GetDataComponent } from './get-data/get-data.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
+import { PostDataComponent } from './post-data/post-data.component';
 import { ReactiveFormComponent } from './reactive-form/reactive-form.component';
 import { TodoComponent } from './todo/todo.component';
 import { ToogleElementComponent } from './toogle-element/toogle-element.component';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { UserFaisalComponent } from './user-faisal/user-faisal.component';
 
 const routes: Routes = [
@@ -47,6 +49,14 @@ const routes: Routes = [
   {
     path: "getData",
     component: GetDataComponent
+  },
+  {
+    path: "twoWayBinding",
+    component: TwoWayBindingComponent
+  },
+  {
+    path: "post-data",
+    component: PostDataComponent
   }
 ];
 

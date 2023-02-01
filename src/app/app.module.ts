@@ -16,7 +16,11 @@ import { ReactiveFormComponent } from './reactive-form/reactive-form.component'
 import{ReactiveFormsModule} from '@angular/forms';
 import { UserFaisalComponent } from './user-faisal/user-faisal.component';
 import { GetDataComponent } from './get-data/get-data.component';
-import{HttpClientModule} from '@angular/common/http'
+import{HttpClientModule} from '@angular/common/http';
+import { RedElDirective } from './red-el.directive';
+import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
+import { PostDataComponent } from './post-data/post-data.component'
+
 
 
 @NgModule({
@@ -33,6 +37,9 @@ import{HttpClientModule} from '@angular/common/http'
     ReactiveFormComponent,
     UserFaisalComponent,
     GetDataComponent,
+    RedElDirective,
+    TwoWayBindingComponent,
+    PostDataComponent,
     
   ],
   imports: [
@@ -41,7 +48,9 @@ import{HttpClientModule} from '@angular/common/http'
     NgbModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserModule,
+    FormsModule
     
   ],
   providers: [],

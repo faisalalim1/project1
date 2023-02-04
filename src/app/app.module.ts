@@ -5,8 +5,6 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-<<<<<<< Updated upstream
-=======
 import { LoginComponent } from './login/login.component';
 import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
@@ -25,16 +23,10 @@ import { PostDataComponent } from './post-data/post-data.component';
 import { SignupComponent } from './signup/signup.component';
 import { LogoutComponent } from './logout/logout.component'
 
-
->>>>>>> Stashed changes
-
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-<<<<<<< Updated upstream
-    FooterComponent
-=======
     FooterComponent,
     LoginComponent,
     HomeComponent,
@@ -49,9 +41,7 @@ import { LogoutComponent } from './logout/logout.component'
     TwoWayBindingComponent,
     PostDataComponent,
     SignupComponent,
-    LogoutComponent,
-
->>>>>>> Stashed changes
+    LogoutComponent
   ],
   imports: [
     BrowserModule,

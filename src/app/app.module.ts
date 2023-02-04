@@ -19,9 +19,9 @@ import { GetDataComponent } from './get-data/get-data.component';
 import{HttpClientModule} from '@angular/common/http';
 import { RedElDirective } from './red-el.directive';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
-import { PostDataComponent } from './post-data/post-data.component'
-
-
+import { PostDataComponent } from './post-data/post-data.component';
+import { SignupComponent } from './signup/signup.component';
+import { LogoutComponent } from './logout/logout.component'
 
 @NgModule({
   declarations: [
@@ -40,7 +40,8 @@ import { PostDataComponent } from './post-data/post-data.component'
     RedElDirective,
     TwoWayBindingComponent,
     PostDataComponent,
-    
+    SignupComponent,
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
@@ -51,7 +52,7 @@ import { PostDataComponent } from './post-data/post-data.component'
     HttpClientModule,
     BrowserModule,
     FormsModule
-    
+
   ],
   providers: [],
   bootstrap: [AppComponent]

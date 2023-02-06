@@ -17,4 +17,15 @@ export class UserDataService {
   {
     return this.http.post(this.url,data);
   }
+
+
+  //product from for get post edit delete
+
+  postProduct(data:any){
+    return this.http.post<any>("http://localhost:3000/ProductList",data);
+  }
+
+  getProduct(data:any){
+    return this.http.get<any>("http://localhost:3000/ProductList");
+  }
 }

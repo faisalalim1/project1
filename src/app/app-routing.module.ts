@@ -3,6 +3,7 @@ import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BasicFormComponent } from './basic-form/basic-form.component';
+import { CrudOperationComponent } from './crud-operation/crud-operation.component';
 import { GetDataComponent } from './get-data/get-data.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
@@ -71,6 +72,10 @@ const routes: Routes = [
   {
     path: "logout",
     component: LogoutComponent
+  },
+  {
+    path: "crudOperation",
+    component: CrudOperationComponent
   }
 ];
 

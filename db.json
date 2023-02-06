@@ -36,5 +36,34 @@
       "title": "faza",
       "id": 3
     }
+  ],
+  "ProductList": [
+    {
+      "productName": "Apple",
+      "category": "Electronic",
+      "type": "Old",
+      "price": 1200,
+      "comments": "old phone, not a single scrach",
+      "date": "2017-03-15T18:30:00.000Z",
+      "id": 1
+    },
+    {
+      "productName": "samsung",
+      "category": "Electronic",
+      "type": "New",
+      "price": 5000,
+      "comments": "new to use",
+      "date": "2023-02-15T18:30:00.000Z",
+      "id": 2
+    },
+    {
+      "productName": "faisal4all786@gmail.com",
+      "category": "Vegetables",
+      "type": "New",
+      "price": 234,
+      "comments": "sadfghj",
+      "date": "2023-02-20T18:30:00.000Z",
+      "id": 3
+    }
   ]
 }

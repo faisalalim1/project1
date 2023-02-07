@@ -35,6 +35,20 @@
       "userid": "888",
       "title": "faza",
       "id": 3
+    },
+    {
+      "name": "faisal4all786@gmail.com",
+      "email": "faisal4all786@gmail.com",
+      "mobile": 7696139255,
+      "password": "123456",
+      "id": 4
+    },
+    {
+      "name": "faisalalim",
+      "email": "faisal4all786",
+      "mobile": 7696139255,
+      "password": "1234567",
+      "id": 5
     }
   ],
   "ProductList": [
@@ -57,13 +71,67 @@
       "id": 2
     },
     {
-      "productName": "faisal4all786@gmail.com",
+      "productName": "Banana",
+      "category": "Fruits",
+      "type": "New",
+      "price": 50,
+      "comments": "Fresh ",
+      "date": "2023-02-06T18:30:00.000Z",
+      "id": 4
+    },
+    {
+      "productName": "Onion",
       "category": "Vegetables",
       "type": "New",
-      "price": 234,
-      "comments": "sadfghj",
-      "date": "2023-02-20T18:30:00.000Z",
-      "id": 3
+      "price": 90,
+      "comments": "fresh Nasik onion",
+      "date": "2023-02-06T18:30:00.000Z",
+      "id": 5
+    },
+    {
+      "productName": "Mango",
+      "category": "Fruits",
+      "type": "New",
+      "price": 120,
+      "comments": "fresh",
+      "date": "2023-02-06T18:30:00.000Z",
+      "id": 6
+    },
+    {
+      "productName": "vivo",
+      "category": "Electronic",
+      "type": "Refurbished",
+      "price": 1200,
+      "comments": "old ",
+      "date": "2016-06-08T18:30:00.000Z",
+      "id": 7
+    },
+    {
+      "productName": "keyboad",
+      "category": "Electronic",
+      "type": "Refurbished",
+      "price": 12000,
+      "comments": "new",
+      "date": "2023-02-01T18:30:00.000Z",
+      "id": 8
+    },
+    {
+      "productName": "poco",
+      "category": "Electronic",
+      "type": "Refurbished",
+      "price": 2500,
+      "comments": "new to use",
+      "date": "2023-02-07T18:30:00.000Z",
+      "id": 9
+    },
+    {
+      "productName": "one plus",
+      "category": "Electronic",
+      "type": "Refurbished",
+      "price": 20000,
+      "comments": "new",
+      "date": "2023-01-31T18:30:00.000Z",
+      "id": 10
     }
   ]
 }

@@ -25,7 +25,7 @@ export class UserDataService {
     return this.http.post<any>("http://localhost:3000/ProductList",data);
   }
 
-  getProduct(data:any){
+  getProducts(){
     return this.http.get<any>("http://localhost:3000/ProductList");
   }
 }

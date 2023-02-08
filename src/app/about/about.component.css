@@ -1,9 +1,6 @@
 header{
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2)), center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.2));
     min-height: 100vh;
-    color: black;
-    padding: 25px;
-    display: flex;
     flex-direction: column;
     align-content: stretch;
 }
@@ -31,15 +28,3 @@ header{
 }
 
 
-@media(max-width: 500px){
-    .head-btn{
-        font-size: 17px;
-    }
-    .head-bottom h2{
-        font-size: 28px;
-    }
-    .head-bottom p{
-        font-size: 17px;
-        margin: 20px auto;
-    }
-}

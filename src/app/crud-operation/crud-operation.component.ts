@@ -26,6 +26,7 @@ export class CrudOperationComponent implements OnInit {
     this.getAllProducts();
   }
 
+  //opening on dialog box 
   openDialog() {
   
     this.dialog.open(DialogComponent,{
@@ -38,6 +39,7 @@ export class CrudOperationComponent implements OnInit {
     })
   }
 
+  //getting the product on API call 
   getAllProducts()
   {
     this.api.getProducts()
@@ -53,15 +55,36 @@ export class CrudOperationComponent implements OnInit {
     })
   }
 
+  //edit product from dialog box
   editproduct(row : any)
   {
     this.dialog.open(DialogComponent,{
       width:'50%',
       data:row
+    }).afterClosed().subscribe(val=>{
+      if(val === 'update'){
+        this.getAllProducts();
+      }
     })
   }
 
-  // filter method
+  //delete method
+  deleteProduct(id:number)
+  {
+    this.api.deleteProduct(id)
+    .subscribe({
+      next:(res)=>{
+        alert("product deleted successfully")
+        this.getAllProducts();
+      },
+      error:()=>{
+        alert("Error while deleting the product!!")
+      }
+    })
+  }
+
+
+  // filter method for dialog box
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;
